@@ -44,6 +44,6 @@ const net = require("net");
 // };
 
 console.log("Connecting ...");
-connect();
-setupInput();
+//connect();
+setupInput(connect());
 
